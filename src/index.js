@@ -36,5 +36,5 @@ app.get("/slow", slowDownHandler, (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening at http://hostname:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });
